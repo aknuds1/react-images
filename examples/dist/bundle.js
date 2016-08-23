@@ -2649,7 +2649,7 @@ module.exports = {
 	deepMerge: _deepMerge2['default']
 };
 
-},{"./bindFunctions":38,"./bodyScroll":39,"./canUseDom":40,"./deepMerge":41}],"react-images":[function(require,module,exports){
+},{"./bindFunctions":38,"./bodyScroll":39,"./canUseDom":40,"./deepMerge":41}],"@aknudsen/react-images":[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -2762,6 +2762,13 @@ var Lightbox = (function (_Component) {
 				_utils.bodyScroll.blockScroll();
 			} else {
 				_utils.bodyScroll.allowScroll();
+			}
+		}
+	}, {
+		key: 'componentWillUnmount',
+		value: function componentWillUnmount() {
+			if (this.props.enableKeyboardInput) {
+				window.removeEventListener('keydown', this.handleKeyboardInput);
 			}
 		}
 

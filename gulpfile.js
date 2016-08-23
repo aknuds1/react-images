@@ -1,10 +1,9 @@
-var gulp = require('gulp'),
-    initGulpTasks = require('react-component-gulp-tasks');
+var gulp = require('gulp');
+var initGulpTasks = require('react-component-gulp-tasks');
 
 var taskConfig = {
-
 	component: {
-		name: 'Lightbox'
+		name: 'Lightbox',
 	},
 
 	example: {
@@ -14,18 +13,17 @@ var taskConfig = {
 		files: [
 			'.gitignore',
 			'.npmignore',
-            'images/*',
+			'images/*',
 			'favicon.ico',
-			'index.html'
+			'index.html',
 		],
 		scripts: [
-			'app.js'
+			'app.js',
 		],
 		less: [
-			'example.less'
-		]
-	}
-
+			'example.less',
+		],
+	},
 };
 
 initGulpTasks(gulp, taskConfig);

@@ -1674,6 +1674,13 @@ var Lightbox = (function (_Component) {
 				_utils.bodyScroll.allowScroll();
 			}
 		}
+	}, {
+		key: 'componentWillUnmount',
+		value: function componentWillUnmount() {
+			if (this.props.enableKeyboardInput) {
+				window.removeEventListener('keydown', this.handleKeyboardInput);
+			}
+		}
 
 		// ==============================
 		// METHODS

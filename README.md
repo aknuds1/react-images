@@ -4,7 +4,6 @@
 
 A simple, responsive lightbox component for displaying an array of images.
 
-
 ## Quick start
 
 ```jsx
@@ -26,7 +25,6 @@ export default class Sample extends React.Component {
   }
 }
 ```
-
 
 ## Demo & Examples
 
@@ -70,7 +68,6 @@ const LIGHTBOX_IMAGE_SET = [
     ],
   }
 ];
-
 ```
 
 Notes on srcset support:
@@ -100,7 +97,6 @@ const LIGHTBOX_IMAGE_SET = [
     src: 'http://example.com/example/img2.jpg',
   }
 ];
-
 ```
 
 Note that the caption is an entirely optional property, as can be seen in the first gallery on the [example page](http://jossmac.github.io/react-images/). The first image has a single line caption, the second demonstrates multiline, and the remaining images are without captions, entirely.
