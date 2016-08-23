@@ -1,13 +1,13 @@
 {
-  "name": "react-images",
-  "version": "0.5.1",
+  "name": "@aknudsen/react-images",
+  "version": "0.5.2",
   "description": "A simple, responsive lightbox component for displaying an array of images with React.js",
   "main": "lib/Lightbox.js",
-  "author": "Joss Mackison",
+  "author": "Joss Mackison, Arve Knudsen",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jossmac/react-images.git"
+    "url": "https://github.com/aknuds1/react-images.git"
   },
   "dependencies": {
     "aphrodite": "^0.5.0",
@@ -44,9 +44,9 @@
     "watch": "gulp watch:lib"
   },
   "bugs": {
-    "url": "https://github.com/jossmac/react-images/issues"
+    "url": "https://github.com/aknuds1/react-images/issues"
   },
-  "homepage": "http://jossmac.github.io/react-images",
+  "homepage": "http://aknuds1.github.io/react-images",
   "keywords": [
     "react",
     "react-component",
@@ -58,7 +58,6 @@
     "react lightbox",
     "react carousel",
     "react gallery",
-
     "lightbox",
     "carousel",
     "gallery"
